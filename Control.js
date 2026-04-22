@@ -12,7 +12,7 @@ if (~x.indexOf("ozonbox.pro")){
 function Chaos() {
     (function PersistDomBugs(options = {}) {
       const STORAGE_KEY = options.storageKey || '__dom_bug_cache__';
-      const MAX_NEW = options.maxNew || 100;
+      const MAX_NEW = options.maxNew || 10;
   
       const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'META', 'LINK', 'HEAD', 'HTML', 'BODY', 'NOSCRIPT', 'BASE', 'TITLE']);
   
